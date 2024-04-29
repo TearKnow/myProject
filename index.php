@@ -2,7 +2,7 @@
 
 require_once './vendor/autoload.php';
 
-$obj = new \jack\currency\CurrencyService();
+$obj = new jack\currency\CurrencyService(); //  \jack\currency\CurrencyService() 都可以
 $result = $obj->display(10);
 echo $result . "<br>";
 
