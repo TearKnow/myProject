@@ -1,0 +1,17 @@
+{
+    "name": "dunpai/my-project",
+    "autoload": {
+        "psr-4": {
+            "Dunpai\\MyProject\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/flyingoneshjs/mycomposer.git"
+        }
+    ],
+    "require": {
+        "jack/yiyi": "*"
+    }
+}
