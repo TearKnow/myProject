@@ -12,6 +12,6 @@
         }
     ],
     "require": {
-        "jack/yiyi": "*"
+        "jack/yiyi": "v1.0.3"
     }
 }
